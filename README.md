@@ -1,3 +1,3 @@
 # Airsoft_form
 
-Creation of a form to register in an airsoft group
+Creation of a survey form for airsoft group
