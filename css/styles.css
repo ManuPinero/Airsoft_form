@@ -1,3 +1,9 @@
+
+
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Ubuntu" ;
 }
@@ -29,22 +35,52 @@ body::before {
 
 #survey-form {
     background-color: #66806aea ;
+    border: 3px solid #3c413dea ;
     border-radius: 2%;
+    padding: 2.3rem;
+    font-size: 1.27rem;
+    color: #ececec;
 }
 
 .group-input{
+    padding: 0.7rem 0rem;
+}
+
+.labelposition{
+    display: flex;
+    padding: 0.4rem 0rem;
+}
+
+.inputp{
+    width: 100%;
+    height: 2.3rem;
+    font-size: 1.1rem;
+    padding: 0rem 1rem;
+    border-radius: 0.20rem;
+    border: 1px solid #ced4da;
+    box-sizing: border-box;
+}
+
+/* .pposition{
+    padding: 1rem 1.5rem;
+} */
+
+/* #dropdown{
+    padding: 0.8rem 1.5rem;
+} */
+
+/* .radiogroup{
+    display: block;
     padding: 0.8rem 1.5rem;
 }
 
-#name-label{
-    display: flex;
-    padding: 1rem;
-}
+.checkgroup{
+    display: block;
+    padding: 0.8rem 1.5rem;
+} */
 
-#email-label{
-    display: flex;
-}
-
-#number-label{
-    display: flex;
+ .sugg {
+    display:block;
+    padding: 0.8rem 1.5rem;
+    box-sizing: border-box;
 }
