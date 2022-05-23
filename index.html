@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,600;1,700;1,800&family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,600;1,700;1,800&family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap"
         rel="stylesheet">
     <link rel="styleSheet" href="/css/styles.css" type="text/css">
     <title>Airsoft form</title>
 </head>
+
 <body>
     <main class="content">
         <div class="header">
@@ -19,17 +22,17 @@
         </div>
 
         <form id="survey-form" action="#">
-            
+
             <div class="group-input">
                 <label id="name-label" class="labelposition">Nombre</label>
                 <input type="text" id="name" class="inputp" name="username" placeholder="Enter your name" required>
             </div>
-            
+
             <div class="group-input">
                 <label id="email-label" class="labelposition">Email</label>
                 <input type="email" id="email" class="inputp" name="email" placeholder="Enter your Email" required>
             </div>
-            
+
             <div class="group-input">
                 <label id="number-label" class="labelposition">Age</label>
                 <input type="number" id="number" class="inputp" name="age" placeholder="Age" required max="100" min="1">
@@ -47,17 +50,17 @@
             </select>
 
             <p class="pposition">How much time do you dedicate to Airsoft?</p>
-            
+
             <div class="radiogroup">
                 <input type="radio" class="radiostyle" name="dedicaded" value="always">
                 <label for="dedicaded">Always that I can</label>
             </div>
-            
+
             <div class="radiogroup">
                 <input type="radio" class="radiostyle" name="dedicaded" value="some">
                 <label for="dedicaded">Some weekend</label>
             </div>
-            
+
             <div class="radiogroup">
                 <input type="radio" class="radiostyle" name="dedicaded" value="abandoned">
                 <label for="dedicaded">I have abandoned it lately</label>
@@ -79,17 +82,17 @@
                 <input type="checkbox" class="checkoption" name="aspect" value="weapon">
                 <label>Weapon</label>
             </div>
-            
+
             <div class="checkgroup">
                 <input type="checkbox" class="checkoption" name="aspect" value="friendships">
                 <label>friendships</label>
             </div>
-            
+
             <div class="checkgroup">
                 <input type="checkbox" class="checkoption" name="aspect" value="fun">
                 <label>Fun</label>
             </div>
-            
+
             <div class="checkgroup">
                 <input type="checkbox" class="checkoption" name="aspect" value="setting">
                 <label>Setting</label>
@@ -99,13 +102,15 @@
                 <p class="pposition">Any comments or suggestions?</p>
                 <textarea class="sugg">Enter your comment here...</textarea>
             </div>
-            
+
             <div class="sumpos">
                 <button type="summit" id="submit">Submit</button>
             </div>
-            
+            <footer>
+                <p class="copyfooter">© Manu Pinero</p>
+            </footer>
         </form>
     </main>
-    
 </body>
+
 </html>
