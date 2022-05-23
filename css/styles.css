@@ -1,13 +1,14 @@
 
-
 *::after {
     box-sizing: border-box;
 }
 
+/* applied the fountain to the whole body */
 body {
     font-family: "Ubuntu" ;
 }
 
+/* Made the backgroun of the page */
 body::before {
     content: "";
     position: fixed;
@@ -24,10 +25,34 @@ body::before {
     background-position: center;
 }
 
-.header {
-    text-align: center;
+/* Applied green color to radio buttons and checkbox */
+input[name="dedicaded"]{
+    accent-color: green;
 }
 
+input[name="aspect"]{
+    accent-color: green;
+}
+
+/* Styles part for the header */
+.header {
+    text-align: center;
+    color: #FFF;
+    letter-spacing: 0.2rem;
+    padding: 2.2rem 0rem 1rem;
+}
+
+#title{
+    font-size: 2.8rem;
+    margin: 0rem;
+}
+
+#description{
+    font-size: 1.1rem;
+}
+
+
+/* I define the part where all the content will go */
 .content {
     max-width: 720px;
     margin:auto;
@@ -42,13 +67,10 @@ body::before {
     color: #ececec;
 }
 
-.group-input{
-    padding: 0.7rem 0rem;
-}
-
+/* first input styles */
 .labelposition{
     display: flex;
-    padding: 0.4rem 0rem;
+    padding: 1.2rem 0rem;
 }
 
 .inputp{
@@ -56,31 +78,68 @@ body::before {
     height: 2.3rem;
     font-size: 1.1rem;
     padding: 0rem 1rem;
-    border-radius: 0.20rem;
+    border-radius: 0.2rem;
     border: 1px solid #ced4da;
     box-sizing: border-box;
 }
 
-/* .pposition{
-    padding: 1rem 1.5rem;
-} */
 
-/* #dropdown{
-    padding: 0.8rem 1.5rem;
-} */
-
-/* .radiogroup{
-    display: block;
-    padding: 0.8rem 1.5rem;
+/* I apply style to the selectors */
+#dropdown{
+    width: 100%;
+    height: 2.3rem;
+    font-size: 1.2rem;
+    padding: 0rem 1rem;
+    border-radius: 0.2rem;
+    color: #7b7b7b;
+    box-sizing: border-box;
 }
 
-.checkgroup{
-    display: block;
-    padding: 0.8rem 1.5rem;
-} */
+/* button radio */
+.radiostyle {
+    min-width: 1.3rem;
+    min-height: 1.3rem;
+    background-color: green;
+}
 
+/* checkbox */
+.checkoption{
+    min-width: 1.3rem;
+    min-height: 1.3rem;
+}
+
+
+/* Textarea */
  .sugg {
     display:block;
-    padding: 0.8rem 1.5rem;
+    width: 100%;
+    height: 15rem;
+    border-radius: 0.2rem;
+    padding: 1rem 1.2rem;
+    font-size: 1.2rem;
+    color: #7b7b7b;
+    font-family: "Ubuntu" ;
     box-sizing: border-box;
+}
+
+.suggpos{
+    margin: 0.5rem 0rem 2rem;
+    padding: 0.25rem;
+}
+
+
+/* submit button */
+#submit {
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 0.2rem;
+    border: 1px solid rgb(6, 78, 6);
+    color: #ffffff;
+    background-color: rgb(10, 134, 10);
+    font-size: 1.1rem;
+    box-sizing: border-box;
+}
+
+.sumpos {
+    padding-bottom: 2rem;
 }
